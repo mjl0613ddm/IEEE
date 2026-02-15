@@ -1,6 +1,7 @@
 # Interpreting Emergent Extreme Events in Multi-Agent Systems
 
-[![Paper](https://img.shields.io/badge/Paper-ICML%202026-blue.svg)](https://icml.cc/)
+[![Paper](https://img.shields.io/badge/Paper-ICML%202026-blue.svg)](https://arxiv.org/abs/2601.20538)
+[![arXiv](https://img.shields.io/badge/arXiv-2601.20538-b31b1b.svg)](https://arxiv.org/abs/2601.20538)
 
 This repository provides the official implementation for **Interpreting Emergent Extreme Events in Multi-Agent Systems**. Large language model–powered multi-agent systems (MAS) often exhibit extreme events ("Black Swans")—outliers with extreme impact whose origins remain obscured by emergence. This work proposes the first framework for explaining such events by answering three fundamental questions: **When** does the event originate? **Who** drives it? And **What** behaviors contribute to it? We adapt the Shapley value to faithfully attribute the occurrence of extreme events to each action, then aggregate attributions along time, agent, and behavior dimensions and design interpretable metrics to characterize event features.
 
@@ -24,7 +25,23 @@ The framework quantifies risk contributions across three dimensions and derives 
 - **Z_ag**: Directional alignment of agent risk contributions (synchronous vs. canceling).
 - **G_be**: Concentration of risk among behavior patterns (higher = few behaviors dominate).
 
-See `assets/fig_action.png` (risk attribution process), `assets/fig_agent.png` (agent analysis), and `assets/fig_metric_3.png` (temporal risk visualization).
+### Risk Attribution Process (Figure 2)
+
+<div align="center">
+  <img src="assets/fig_action.png" alt="Risk Attribution Process" width="90%" style="max-width: 900px;">
+</div>
+
+### Agent Risk Analysis (Figure 4)
+
+<div align="center">
+  <img src="assets/fig_agent.png" alt="Agent Risk Contribution" width="90%" style="max-width: 900px;">
+</div>
+
+### Temporal Risk Visualization (Figure 3)
+
+<div align="center">
+  <img src="assets/fig_metric.png" alt="Risk Latency" width="90%" style="max-width: 900px;">
+</div>
 
 ## Method Overview
 
