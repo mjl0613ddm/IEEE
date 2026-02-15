@@ -66,7 +66,7 @@ Representative results from the paper ([arXiv:2601.20538](https://arxiv.org/abs/
 <img src="assets/fig_agent.png" alt="Agent Risk" width="90%">
 
 **Temporal risk visualization**  
-<img src="assets/fig_metric.png" alt="Risk Latency" width="90%">
+<img src="assets/fig_temporal.png" alt="Risk Latency" width="90%">
 
 ## Workflow
 
