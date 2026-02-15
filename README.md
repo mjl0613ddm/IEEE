@@ -59,13 +59,13 @@ Empirical findings from the paper:
 
 Representative results from the paper ([arXiv:2601.20538](https://arxiv.org/abs/2601.20538)):
 
-**Risk attribution process (Fig. 2)**  
+**Risk between different behaviours**  
 <img src="assets/fig_action.png" alt="Risk Attribution" width="90%">
 
-**Agent risk analysis (Fig. 4)**  
+**Agent risk analysis**  
 <img src="assets/fig_agent.png" alt="Agent Risk" width="90%">
 
-**Temporal risk visualization (Fig. 3)**  
+**Temporal risk visualization**  
 <img src="assets/fig_metric.png" alt="Risk Latency" width="90%">
 
 ## Workflow
