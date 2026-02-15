@@ -25,24 +25,6 @@ The framework quantifies risk contributions across three dimensions and derives 
 - **Z_ag**: Directional alignment of agent risk contributions (synchronous vs. canceling).
 - **G_be**: Concentration of risk among behavior patterns (higher = few behaviors dominate).
 
-### Risk Attribution Process (Figure 2)
-
-<div align="center">
-  <img src="assets/fig_action.png" alt="Risk Attribution Process" width="90%" style="max-width: 900px;">
-</div>
-
-### Agent Risk Analysis (Figure 4)
-
-<div align="center">
-  <img src="assets/fig_agent.png" alt="Agent Risk Contribution" width="90%" style="max-width: 900px;">
-</div>
-
-### Temporal Risk Visualization (Figure 3)
-
-<div align="center">
-  <img src="assets/fig_metric.png" alt="Risk Latency" width="90%" style="max-width: 900px;">
-</div>
-
 ## Method Overview
 
 - **Action-level attribution**: Shapley value assigns each action a marginal contribution to the extreme event.
@@ -72,6 +54,19 @@ Empirical findings from the paper:
 3. **Stability**: Agents with high risk contribution often exhibit high instability (C_ag).
 4. **Sync**: Agents tend to increase or decrease risk synchronously (Z_ag).
 5. **What**: A small number of behavior patterns contribute the majority of the risk (G_be).
+
+## Example Results
+
+Representative results from the paper ([arXiv:2601.20538](https://arxiv.org/abs/2601.20538)):
+
+**Risk attribution process (Fig. 2)**  
+<img src="assets/fig_action.png" alt="Risk Attribution" width="90%">
+
+**Agent risk analysis (Fig. 4)**  
+<img src="assets/fig_agent.png" alt="Agent Risk" width="90%">
+
+**Temporal risk visualization (Fig. 3)**  
+<img src="assets/fig_metric.png" alt="Risk Latency" width="90%">
 
 ## Workflow
 
