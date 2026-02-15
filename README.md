@@ -103,26 +103,3 @@ pip install -r requirements.txt
 ## Data and Outputs
 
 **Simulation data and results are not included.** Run the simulations to generate data. Output paths (e.g. `datas/`, `data/`, `results/`, `logs/`) are in `.gitignore`.
-
-## Citation
-
-```bibtex
-@inproceedings{extreme_events_mas_2026,
-  title={Interpreting Emergent Extreme Events in Multi-Agent Systems},
-  author={Anonymous},
-  booktitle={Proceedings of the International Conference on Machine Learning (ICML)},
-  year={2026}
-}
-```
-
-## Quick Links
-
-| Component | Location |
-|-----------|----------|
-| EconAgent | [README](EconAgent/README.md) — `config.yaml`, `python simulate.py`, `batch_run_simulations.sh` |
-| SocialLLM | [README](SocialLLM/README.md) — Configure `config/`, run `main.py` |
-| TwinMarket | [README](TwinMarket/README.md) — `config/api_example.yaml` → `config/api.yaml`, `bash scripts/run.sh` |
-| Shapley | [EconAgent/scripts/core/shapley.py](EconAgent/scripts/core/shapley.py) |
-| Risk features | [EconAgent](EconAgent/scripts/risk_features_exp/README.md), [SocialLLM](SocialLLM/scripts/risk_features/), [TwinMarket](TwinMarket/scripts/risk_feature/README.md) |
-| Faithfulness | [EconAgent](EconAgent/scripts/faithfulness_exp/README.md), [SocialLLM](SocialLLM/scripts/faithfulness_exp/README.md), [TwinMarket](TwinMarket/scripts/faithfulness_exp/README.md) |
-| Plotting | [EconAgent/scripts/plot](EconAgent/scripts/plot/README.md), [SocialLLM/scripts/plot](SocialLLM/scripts/plot/), [TwinMarket/scripts/plot](TwinMarket/scripts/plot/README.md) |
