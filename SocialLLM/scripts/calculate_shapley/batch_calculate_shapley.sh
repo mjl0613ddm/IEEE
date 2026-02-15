@@ -10,10 +10,9 @@
 # 配置参数（可根据需要修改）
 # ============================================================================
 
-# 模型名称列表（可以指定多个模型，用空格分隔）
-# 例如: gpt-4o-mini, qwen-plus, claude-3-haiku-20240307
-# 如果为空，则自动识别results目录下的所有模型
-MODEL_NAMES=()  # 空数组表示自动识别所有模型
+# 模型名称列表（修改为指定模型，如 MODEL_NAMES=(gpt-4o-mini qwen-plus)）
+# 空数组 MODEL_NAMES=() 表示自动识别 results/ 下所有模型
+MODEL_NAMES=()
 
 # 项目根目录路径
 BASE_PATH="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
