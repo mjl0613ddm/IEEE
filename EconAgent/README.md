@@ -2,6 +2,17 @@
 
 This project simulates macro-economic dynamics with language-model-driven agents. The current workflow assumes **remote LLM APIs only** (no bundled local models) and adds support for resuming partially completed simulations.
 
+## Environment Setup
+
+We recommend using a separate conda environment for EconAgent to avoid dependency conflicts with other simulations:
+
+```bash
+cd EconAgent
+conda create -n econagent python=3.10
+conda activate econagent
+pip install numpy pyyaml python-dateutil fire  # core deps; ai_economist is bundled
+```
+
 ## Main Simulation Script
 
 **`simulate.py`** is the primary entry point for running simulations. Run it first to generate data; outputs go to `<save_path>/data/<run_name>/` and `<save_path>/figs/<run_name>/`. Then use the scripts in `scripts/` for analysis (Shapley attribution, faithfulness, risk features, plotting).

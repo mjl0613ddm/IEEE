@@ -21,7 +21,12 @@ SocialLLM/
 
 ## Install
 
+We recommend using a separate conda environment for SocialLLM to avoid dependency conflicts with other simulations:
+
 ```bash
+cd SocialLLM
+conda create -n socialllm python=3.10
+conda activate socialllm
 pip install -r requirements.txt
 ```
 

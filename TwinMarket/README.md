@@ -31,7 +31,14 @@ TwinMarket is an innovative stock market simulation system powered by Large Lang
 
 ## 🚀 Quick Start
 
+We recommend using a separate conda environment for TwinMarket to avoid dependency conflicts with other simulations:
+
 ```bash
+cd TwinMarket
+conda create -n twinmarket python=3.10
+conda activate twinmarket
+pip install -r requirements.txt
+
 # Configure your API and embedding models
 cp config/api_example.yaml config/api.yaml
 cp config/embedding_example.yaml config/embedding.yaml
