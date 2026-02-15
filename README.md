@@ -3,7 +3,7 @@
 [![Paper](https://img.shields.io/badge/Paper-ICML%202026-blue.svg)](https://arxiv.org/abs/2601.20538)
 [![arXiv](https://img.shields.io/badge/arXiv-2601.20538-b31b1b.svg)](https://arxiv.org/abs/2601.20538)
 
-This repository provides the official implementation for **Interpreting Emergent Extreme Events in Multi-Agent Systems**. Large language model–powered multi-agent systems (MAS) often exhibit extreme events ("Black Swans")—outliers with extreme impact whose origins remain obscured by emergence. This work proposes the first framework for explaining such events by answering three fundamental questions: **When** does the event originate? **Who** drives it? And **What** behaviors contribute to it? We adapt the Shapley value to faithfully attribute the occurrence of extreme events to each action, then aggregate attributions along time, agent, and behavior dimensions and design interpretable metrics to characterize event features.
+This repository provides the official implementation for **Interpreting Emergent Extreme Events in Multi-Agent Systems** ([arXiv:2601.20538](https://arxiv.org/abs/2601.20538)). Large language model–powered multi-agent systems (MAS) often exhibit extreme events ("Black Swans")—outliers with extreme impact whose origins remain obscured by emergence. This work proposes the first framework for explaining such events by answering three fundamental questions: **When** does the event originate? **Who** drives it? And **What** behaviors contribute to it? We adapt the Shapley value to faithfully attribute the occurrence of extreme events to each action, then aggregate attributions along time, agent, and behavior dimensions and design interpretable metrics to characterize event features.
 
 <div align="center">
   <img src="assets/fig_main.png" alt="Framework Overview" width="90%" style="max-width: 900px;">
@@ -55,7 +55,7 @@ Empirical findings from the paper:
 4. **Sync**: Agents tend to increase or decrease risk synchronously (Z_ag).
 5. **What**: A small number of behavior patterns contribute the majority of the risk (G_be).
 
-## Example Results
+## Results
 
 Representative results from the paper ([arXiv:2601.20538](https://arxiv.org/abs/2601.20538)):
 
