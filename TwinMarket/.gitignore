@@ -1,0 +1,62 @@
+.claude/
+CLAUDE.md
+
+# Python缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 项目特定
+trader/cache/
+*.log
+*.tmp
+*.temp
+# 配置文件(可能包含API密钥)
+config/api.yaml
+config/embedding.yaml
+# *.yaml
+# *.yml
+
+logs*/data/guba_data.csv

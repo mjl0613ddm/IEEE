@@ -1,0 +1,26 @@
+{
+  "model_groups": {
+    "gpt": [
+      "gpt-42",
+      "gpt-45",
+      "gpt-50",
+      "gpt-52",
+      "gpt-54"
+    ],
+    "claude": [
+      "claude-42",
+      "claude-43",
+      "claude-46",
+      "claude-50",
+      "claude-52"
+    ],
+    "llama": [
+      "llama-42",
+      "llama-44",
+      "llama-46",
+      "llama-50",
+      "llama-52"
+    ]
+  }
+}
+

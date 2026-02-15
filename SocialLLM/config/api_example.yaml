@@ -1,0 +1,5 @@
+# Copy this file to config/api.yaml and set your key (do not commit api.yaml).
+api_key:
+  - sk-xxxx
+model_name: gpt-4o-mini
+base_url: https://api.openai.com/v1

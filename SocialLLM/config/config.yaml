@@ -1,0 +1,25 @@
+simulation:
+  num_agents: 15
+  num_steps: 30
+  seed: 42
+
+indicators:
+  base_post_preference: 0.5  # 提高基础发帖偏好（从0.3提高到0.5）
+  base_interaction_preference: 0.4
+  base_sensitivity: 0.5
+  alpha: 0.5  # 敏感度系数
+  beta: 0.5   # 发帖偏好系数（从0.3提高到0.5，增加发帖倾向）
+  gamma: 0.3  # 互动偏好系数
+  update_magnitude: 0.1  # 信念更新幅度
+  reinforcement_coefficient: 0.5  # 反馈强化系数
+  no_post_multiplier: 1.2  # 没人发帖时的发帖偏好乘数
+  min_view_ratio: 0.3  # 最少看帖比例（至少看30%的帖子）
+  max_view_ratio: 1.0  # 最多看帖比例（最多看100%的帖子，即所有帖子）
+
+llm:
+  config_path: config/api.yaml   # copy from config/api_example.yaml and set your API key
+  temperature: 0.7
+  max_tokens: 500
+
+initialization:
+  belief_range: [-0.5, 0.5]  # 初始信念值范围

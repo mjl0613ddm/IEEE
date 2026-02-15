@@ -1,0 +1,63 @@
+# ===== data & results (users run their own simulations) =====
+data/
+datas/
+datasets/
+logs/
+results/
+outputs/
+checkpoints/
+ckpt/
+figs/
+batch_report.json
+*.pkl
+
+# ===== config with secrets (keep .example only) =====
+**/config/api.yaml
+**/config/embedding.yaml
+!**/config/api_example.yaml
+!**/config/embedding_example.yaml
+
+# EconAgent/TwinMarket config with secrets
+**/mast_config.json
+**/config.yaml.lock
+**/config.yaml.backup
+!**/mast_config.json.example
+
+# ===== model files =====
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.onnx
+
+# ===== numpy / cache =====
+*.npy
+*.npz
+__pycache__/
+*.pyc
+
+# ===== temp =====
+tmp/
+temp/
+
+# ===== system =====
+.DS_Store
+
+# ===== editor =====
+.vscode/
+.cursor/
+
+# ===== common large dirs (any level) =====
+data/
+datasets/
+logs/
+results/
+outputs/
+checkpoints/
+ckpt/
+
+# ===== cache & temp =====
+__pycache__/
+*.pyc
+*.npy
+*.npz

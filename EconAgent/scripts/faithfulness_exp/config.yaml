@@ -1,0 +1,7 @@
+api_key: sk-Xu2pSYgR5jPiz7KUlGFkcu12AFNfU0winDAkmIAmTnxTISfH
+model: gpt-4o
+base_url: http://35.220.164.252:3888/v1
+temperature: 0.7
+timeout: 300
+rows_per_batch: 100
+include_reason: false
