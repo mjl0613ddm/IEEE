@@ -4,12 +4,12 @@
 # 对5个模型分别计算exact_shapley和MC_shapley，然后计算误差并汇总
 
 # ==================== 配置参数 ====================
-# 项目根目录
-BASE_DIR="/mnt/shared-storage-user/meijilin/Economic_System_Attribution/TwinMarket"
-SCRIPT_DIR="${BASE_DIR}/scripts/accuracy_exp"
+# 项目根目录（脚本目录的上级的上级）
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+BASE_DIR="$( cd "$SCRIPT_DIR/../.." && pwd )"
 RESULTS_DIR="${BASE_DIR}/results/accuracy"
 
-# 模型列表（5个模型）
+# 模型列表（根据需要修改）
 MODELS=(
     "gpt-4o"
     "llama-3.1-70b-instruct"
@@ -33,7 +33,7 @@ METRIC_NAME="risk_indicator_simple"
 BASELINE_TYPE="hold"
 N_JOBS=64  # 并行进程数（0表示使用CPU核心数）
 
-# 汇总结果目录
+# 汇总结果目录（在 BASE_DIR 设置后定义）
 AGGREGATE_DIR="${BASE_DIR}/results/shapley_error_aggregate"
 
 # ==================== 检查环境 ====================
